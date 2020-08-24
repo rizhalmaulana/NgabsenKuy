@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "4940600056",
+    "firebase_url": "https://pegawai-que-b170a.firebaseio.com",
+    "project_id": "pegawai-que-b170a",
+    "storage_bucket": "pegawai-que-b170a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:4940600056:android:f6d7e4e47dd6c8afaba10d",
+        "android_client_info": {
+          "package_name": "com.rizal.pegawaique"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "4940600056-f3n3mbpgsfu9eoe2bkrfg353893j39ne.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rizal.pegawaique",
+            "certificate_hash": "11668ff3f43df7d82b6308f3c7f3fca525d5b2fc"
+          }
+        },
+        {
+          "client_id": "4940600056-c3108uht0f17ie31tptgghssqu2u4bqk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2cJ-VIWvvRoDx1_1WVilmmB3gDPEJU84"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "4940600056-c3108uht0f17ie31tptgghssqu2u4bqk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

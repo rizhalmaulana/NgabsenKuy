@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#EE924B</color>
+    <color name="colorPrimaryDark">#F78C32</color>
+    <color name="colorAccent">#FF6E40</color>
+
+    <color name="white">#fff</color>
+    <color name="white_darker">#F0ECEC</color>
+    <color name="black">#000</color>
+    <color name="black_main">#3C3F41</color>
+    <color name="black_sub">#5A5959</color>
+    <color name="red_pink">#EE928D</color>
+
+    <color name="defaultText">#000000</color>
+    <color name="yellow">#FFCE50</color>
+    <color name="red">#F44336</color>
+    <color name="gray">#AFAFAF</color>
+    <color name="grayAccent">#F8F8F8</color>
+
+    <color name="redbtn">#E24242</color>
+    <color name="hijaubtn">#42E26F</color>
+</resources>

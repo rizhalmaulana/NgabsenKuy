@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rizal.pegawaique">
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/teamwork"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/teamwork"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".VerifikasiPulangActivity"/>
+        <activity android:name=".VerifikasiAbsenActivity" />
+        <activity android:name=".AbsenPulangActivity" />
+        <activity android:name=".AbsenMasukActivity" />
+        <activity android:name=".CheckCovidActivity" />
+        <activity android:name=".SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AuthActivity" />
+        <activity android:name=".DaftarActivity" />
+        <activity
+            android:name=".SetMapsActivity"
+            android:label="@string/title_activity_set_maps" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <receiver
+            android:name=".receiver.GeofenceBroadcastReceiver"
+            android:enabled="true"
+            android:exported="true" />
+
+    </application>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+</manifest>
